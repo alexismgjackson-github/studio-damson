@@ -1,0 +1,33 @@
+.contact {
+  display: grid;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+.contact--text {
+  margin-bottom: 3rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form--fullname {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit--btn {
+  background-color: var(--color-dark);
+  border-style: none;
+  color: var(--color-light);
+  font-family: inherit;
+  height: 4.5rem;
+  margin-top: 2rem;
+  max-width: 31.5rem;
+}
+.submit--btn:hover {
+  background-color: var(--color-accent);
+  cursor: pointer;
+}

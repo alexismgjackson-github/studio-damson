@@ -24,6 +24,7 @@ header {
 .header--btn {
   background-color: inherit;
   border-style: none;
+  color: var(--color-light);
   font-size: 3rem;
 }
 

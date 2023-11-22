@@ -1,0 +1,53 @@
+header {
+  align-items: center;
+  background-color: var(--color-light);
+  border-bottom: 1.5px solid var(--color-dark);
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  position: sticky;
+  top: 0;
+}
+
+.site--logo {
+  font-family: var(--font-family-primary);
+  font-size: 2.6rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
+.site--logo:hover {
+  text-decoration: none;
+}
+
+.header--btn {
+  background-color: inherit;
+  border-style: none;
+  font-size: 3rem;
+}
+
+.header--menu {
+  display: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 3rem 6rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header {
+    padding: 3rem 9rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header {
+    padding: 3rem 15rem;
+  }
+}

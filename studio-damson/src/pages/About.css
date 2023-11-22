@@ -1,0 +1,26 @@
+.about {
+  display: grid;
+  gap: 6rem;
+  padding: 3rem 0;
+}
+
+.about-primary,
+.about-secondary {
+  text-align: center;
+}
+
+.about-secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.portrait-img {
+  display: flex;
+  justify-content: center;
+}
+
+.portrait-img img {
+  min-width: 30rem;
+  max-width: 75rem;
+}

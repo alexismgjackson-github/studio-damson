@@ -64,11 +64,11 @@ header {
     display: none;
   }
   .header--links {
-    align-items: center;
     background-color: var(--color-light);
     color: var(--color-dark);
     display: flex;
     height: 0;
+    margin-bottom: 1rem;
     padding-top: 0;
     position: initial;
   }

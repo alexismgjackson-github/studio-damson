@@ -24,7 +24,7 @@ header {
 .header--btn {
   background-color: inherit;
   border-style: none;
-  color: var(--color-light);
+  color: var(--color-dark);
   font-size: 3rem;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 .header--links li {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .expanded {

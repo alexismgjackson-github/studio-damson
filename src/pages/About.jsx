@@ -10,7 +10,7 @@ function About() {
       <div className="about-secondary">
         <div className="portrait-img">
           <img
-            src="./public/images/unsplash_25.jpg"
+            src="./images/unsplash_25.jpg"
             alt="Photographer Studio Damson taking a picture on his camera"
           />
         </div>

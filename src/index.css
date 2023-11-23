@@ -104,6 +104,10 @@ textarea {
   resize: none;
 }
 
+input, textarea {
+  border-radius: ;
+}
+
 input:focus,
 textarea:focus {
   outline: 1.5px solid var(--color-accent);

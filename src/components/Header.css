@@ -28,20 +28,21 @@ header {
   font-size: 3rem;
 }
 
+.header--menu ul {
+  display: grid;
+  gap: 2rem;
+}
+
 .header--links {
   background-color: var(--color-dark);
   color: var(--color-light);
   height: 25vh;
   left: 0;
-  padding: 2rem 0;
+  padding: 4rem 0;
   position: absolute;
   text-align: center;
   top: 9.85rem;
   width: 100%;
-}
-
-.header--links li {
-  margin-bottom: 1.5rem;
 }
 
 .expanded {

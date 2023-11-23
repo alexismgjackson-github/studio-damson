@@ -11,7 +11,7 @@ header {
 
 .site--logo {
   font-family: var(--font-family-primary);
-  font-size: 2.6rem;
+  font-size: 2.25rem;
   letter-spacing: 0.1rem;
   margin-bottom: 0.3rem;
   text-transform: uppercase;
@@ -28,29 +28,29 @@ header {
   font-size: 3rem;
 }
 
-.header--menu ul {
-  display: grid;
-  gap: 2rem;
-}
-
 .header--links {
   background-color: var(--color-dark);
   color: var(--color-light);
   height: 25vh;
   left: 0;
-  padding: 4rem 0;
+  padding: 3.5rem 0;
   position: absolute;
   text-align: center;
   top: 9.85rem;
   width: 100%;
 }
 
-.expanded {
-  display: block;
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .expanded {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 
-.hidden {
-  display: none;
+  .hidden {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

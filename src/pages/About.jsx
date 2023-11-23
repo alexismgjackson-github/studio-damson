@@ -16,12 +16,13 @@ function About() {
         </div>
         <h3 className="about-subheading">Hey, I'm Damson.</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-          dolorem ex sint alias soluta repellat nostrum repellendus. Lorem ipsum
-          dolor, sit amet consectetur adipisicing elit. Delectus dolorem vero
-          eius eligendi repudiandae ex sint alias soluta repellat nostrum
-          repellendus. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Delectus dolorem ex sint alias soluta repellat nostrum repellendus.
+          I am street photographer based out of Tokyo, Japan. Throughout the
+          past 4 years I've been lucky enough to find a passion with photography
+          and explore it daily. My work concentrates on finding beauty in the
+          mundane within the streets of Tokyo. In my photography, I enjoy
+          playing with color contrast, shadows and lighting. Outside of
+          photography, you'll find me playing video games, watching anime or
+          indoor rock climbing.
         </p>
       </div>
     </section>

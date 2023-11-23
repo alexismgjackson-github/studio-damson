@@ -20,6 +20,7 @@
 
 .submit--btn {
   background-color: var(--color-dark);
+  border-radius: 0.5rem;
   border-style: none;
   color: var(--color-light);
   font-family: inherit;

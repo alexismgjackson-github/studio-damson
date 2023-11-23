@@ -23,8 +23,8 @@ footer {
 }
 
 .footer--follow li {
-  font-size: 2rem;
-  padding-left: 2rem;
+  font-size: 2.2rem;
+  padding-left: 2.5rem;
 }
 
 .footer--follow svg:hover {
@@ -55,7 +55,7 @@ footer {
     display: flex;
   }
   .footer--sitemap li {
-    padding-right: 2rem;
+    padding-right: 6rem;
   }
   .footer--follow li {
     font-size: 2.4rem;

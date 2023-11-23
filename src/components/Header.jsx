@@ -4,8 +4,10 @@ import { NavLink, Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 
 function Header() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  /* Default state for navigation menu */
+  const [isNavMenuExpanded, setIsNavMenuExpanded] = useState(false);
 
+  /* Styling for active NavLink */
   const activeStyles = {
     fontWeight: "bold",
     textDecoration: "underline",
@@ -20,7 +22,7 @@ function Header() {
         <button
           className="header--btn"
           onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
+            setIsNavMenuExpanded(!isNavMenuExpanded);
           }}
         >
           <AiOutlineMenu />
@@ -28,7 +30,9 @@ function Header() {
         <div className="header--menu">
           <ul
             className={
-              isNavExpanded ? "header--links expanded" : "header--links hidden"
+              isNavMenuExpanded
+                ? "header--links expanded"
+                : "header--links hidden"
             }
           >
             <li>

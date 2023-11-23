@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 
 function Header() {
@@ -13,7 +13,9 @@ function Header() {
 
   return (
     <header>
-      <p className="site--logo">Studio Damson</p>
+      <Link className="site--logo" to="/">
+        Studio Damson
+      </Link>
       <nav className="header--nav">
         <button
           className="header--btn"

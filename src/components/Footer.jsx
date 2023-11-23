@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
@@ -13,7 +13,9 @@ function Footer() {
     <footer>
       <nav className="footer--nav">
         <div className="footer--primary">
-          <p className="site--logo">Studio Damson</p>
+          <Link className="site--logo" to="/">
+            Studio Damson
+          </Link>
         </div>
         <div className="footer--secondary">
           <div className="footer--sitemap">

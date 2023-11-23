@@ -31,14 +31,6 @@ function Header() {
           >
             <li>
               <NavLink
-                to="/gallery"
-                style={({ isActive }) => (isActive ? activeStyles : null)}
-              >
-                Gallery
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 to="/about"
                 style={({ isActive }) => (isActive ? activeStyles : null)}
               >

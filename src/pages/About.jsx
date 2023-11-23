@@ -17,12 +17,12 @@ function About() {
         <h3 className="about-subheading">Hey, I'm Damson.</h3>
         <p>
           I am street photographer based out of Tokyo, Japan. Throughout the
-          past 6 years I've been lucky enough to find a passion with photography
-          and explore it daily. My work concentrates on finding beauty in the
-          mundane within the streets of Tokyo. In my photography, I enjoy
-          playing with color contrast, shadows and lighting. Outside of
-          photography, you'll find me playing video games, watching anime or
-          indoor rock climbing.
+          past 8 years I've been lucky enough to find a passion with photography
+          and explore it daily. For the past 2 years, my work has concentrated
+          on finding beauty in the mundane within the streets of Tokyo. In my
+          photography, I enjoy playing with color contrast, shadows and
+          lighting. Outside of photography, you'll find me playing video games,
+          watching anime or indoor rock climbing.
         </p>
       </div>
     </section>

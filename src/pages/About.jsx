@@ -18,9 +18,9 @@ function About() {
         <p>
           Throughout the past 8 years I've been lucky enough to find a passion
           with photography and explore it daily. For the past 3 years, my work
-          has concentrated on finding beauty in the mundane within the streets
-          of Tokyo. Outside of photography, you'll find me playing video games,
-          watching anime or indoor rock climbing.
+          has concentrated on capturing the compelling street scenes and the
+          essence of everyday life in Tokyo. Outside of photography, you'll find
+          me playing video games, watching anime or indoor rock climbing.
         </p>
       </div>
     </section>

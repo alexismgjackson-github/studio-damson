@@ -12,6 +12,15 @@ footer {
   gap: 3rem;
 }
 
+.footer--primary .site--logo {
+  color: var(--color-light);
+  font-family: var(--font-family-primary);
+  font-size: 2.25rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
 .footer--secondary {
   align-items: center;
   display: flex;

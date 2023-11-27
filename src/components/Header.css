@@ -9,7 +9,7 @@ header {
   top: 0;
 }
 
-.site--logo {
+header .site--logo {
   color: var(--color-dark);
   font-family: var(--font-family-primary);
   font-size: 2.25rem;

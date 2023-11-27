@@ -1,18 +1,15 @@
 import { useState } from "react";
 
 function Contact() {
-  /* Form state object for inputs and textarea */
+  const [success, setSuccess] = useState(false);
+
   const [contactFormData, setContactFormData] = useState({
     firstName: "",
     lastName: "",
+    email: "",
     message: "",
   });
 
-  /*
-  const [contactFormCompleted, isContactFormCompleted] = useState(false);
-  */
-
-  /* Handle changes on contact form while keeping previous data in contact form */
   function handleChange(event) {
     setContactFormData((contactFormData) => {
       return {
@@ -25,6 +22,13 @@ function Contact() {
   function handleSubmit(event) {
     event.preventDefault();
     console.log(contactFormData);
+    setSuccess(true);
+    setContactFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      message: "",
+    });
   }
 
   return (
@@ -67,6 +71,9 @@ function Contact() {
             required
           ></textarea>
           <button className="submit--btn">Send A Message</button>
+          <div className="submit--message">
+            {success && <p className="success">Success! Message sent.</p>}
+          </div>
         </form>
       </div>
     </section>

@@ -59,7 +59,14 @@ function Contact() {
             />
           </div>
           <label htmlFor="email">Email</label>
-          <input type="email" name="email" aria-label="email" required />
+          <input
+            type="email"
+            name="email"
+            onChange={handleChange}
+            value={contactFormData.email}
+            aria-label="email"
+            required
+          />
           <label htmlFor="message">Message</label>
           <textarea
             type="text"

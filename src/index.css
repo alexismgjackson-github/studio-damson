@@ -98,7 +98,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  outline: 2px solid var(--color-accent);
+  outline: 3px solid var(--color-accent);
 }
 
 p,

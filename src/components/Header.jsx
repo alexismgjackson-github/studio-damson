@@ -4,10 +4,8 @@ import { NavLink, Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 
 function Header() {
-  /* Default state for navigation menu */
   const [isNavMenuExpanded, setIsNavMenuExpanded] = useState(false);
 
-  /* Styling for active NavLink */
   const activeStyles = {
     fontWeight: "bold",
     textDecoration: "underline",
